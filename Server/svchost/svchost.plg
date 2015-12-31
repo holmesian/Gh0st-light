@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: svchost - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/svchost.res" /d "NDEBUG" "E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\svchost\svchost.rc"" 
+Creating temporary file "E:\TEMP\RSP3CF3.tmp" with contents
+[
+/nologo /MT /w /W0 /GX /O2 /I "../../common" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_DLL" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\svchost\common\Buffer.cpp"
+"E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\svchost\ClientSocket.cpp"
+"E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\svchost\common\FileManager.cpp"
+"E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\svchost\common\install.cpp"
+"E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\svchost\common\KernelManager.cpp"
+"E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\svchost\common\Manager.cpp"
+"E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\svchost\common\RegEditEx.cpp"
+"E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\svchost\common\ShellManager.cpp"
+"E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\svchost\svchost.cpp"
+"E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\svchost\common\SystemManager.cpp"
+"E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\svchost\common\until.cpp"
+]
+Creating command line "cl.exe @E:\TEMP\RSP3CF3.tmp" 
+Creating temporary file "E:\TEMP\RSP3CF4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ../../common/zlib/zlib.lib Shlwapi.lib MSVCRT.LIB /nologo /dll /incremental:no /pdb:"Release/core.pdb" /machine:I386 /out:"../../bin/update/core.dll" /implib:"Release/core.lib" 
+".\Release\Buffer.obj"
+".\Release\ClientSocket.obj"
+".\Release\FileManager.obj"
+".\Release\install.obj"
+".\Release\KernelManager.obj"
+".\Release\Manager.obj"
+".\Release\RegEditEx.obj"
+".\Release\ShellManager.obj"
+".\Release\svchost.obj"
+".\Release\SystemManager.obj"
+".\Release\until.obj"
+".\Release\svchost.res"
+]
+Creating command line "link.exe @E:\TEMP\RSP3CF4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Buffer.cpp
+ClientSocket.cpp
+FileManager.cpp
+install.cpp
+KernelManager.cpp
+Manager.cpp
+RegEditEx.cpp
+ShellManager.cpp
+svchost.cpp
+SystemManager.cpp
+until.cpp
+Generating Code...
+Linking...
+   Creating library Release/core.lib and object Release/core.exp
+LINK : warning LNK4089: all references to "WTSAPI32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+core.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

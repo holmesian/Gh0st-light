@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: install - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/install.res" /d "NDEBUG" "E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\install\install.rc"" 
+Creating temporary file "E:\TEMP\RSP3CF0.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/install.pch" /YX"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\install\install.cpp"
+]
+Creating command line "cl.exe @E:\TEMP\RSP3CF0.tmp" 
+Creating temporary file "E:\TEMP\RSP3CF1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Shlwapi.lib /nologo /incremental:no /pdb:"Release/core.pdb" /machine:I386 /out:"../../bin/update/core.dat" 
+".\Release\install.obj"
+".\Release\install.res"
+]
+Creating command line "link.exe @E:\TEMP\RSP3CF1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+install.cpp
+E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\install\decode.h(87) : warning C4305: '-=' : truncation from 'const int' to 'char'
+E:\Soft\Gh0st\Gh0st3.6_精简版源码\Server\install\install.cpp(178) : warning C4700: local variable 'ptr' used without having been initialized
+Linking...
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+core.dat - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

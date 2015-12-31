@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gh0st - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "E:\TEMP\RSP3CFB.tmp" with contents
+[
+../common/zlib/zlib.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/gh0st.pdb" /map:"Release/gh0st.map" /machine:I386 /nodefaultlib:"msvcrt.lib" /out:"../Bin/gh0st.exe" /libpath:"CJ60Lib/lib" 
+".\Release\Audio.obj"
+".\Release\AudioDlg.obj"
+".\Release\BmpToAvi.obj"
+".\Release\BtnST.obj"
+".\Release\Buffer.obj"
+".\Release\BuildView.obj"
+".\Release\CpuUsage.obj"
+".\Release\CustomTabCtrl.obj"
+".\Release\FileManagerDlg.obj"
+".\Release\FileTransferModeDlg.obj"
+".\Release\gh0st.obj"
+".\Release\gh0stDoc.obj"
+".\Release\gh0stView.obj"
+".\Release\HoverEdit.obj"
+".\Release\IniFile.obj"
+".\Release\InputDlg.obj"
+".\Release\IOCPServer.obj"
+".\Release\KeyBoardDlg.obj"
+".\Release\MainFrm.obj"
+".\Release\ScreenSpyDlg.obj"
+".\Release\SettingsView.obj"
+".\Release\SEU_QQwry.obj"
+".\Release\ShellDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\SystemDlg.obj"
+".\Release\TabSDIFrameWnd.obj"
+".\Release\ThemeUtil.obj"
+".\Release\TrayIcon.obj"
+".\Release\TrueColorToolBar.obj"
+".\Release\WebCamDlg.obj"
+".\Release\WinXPButtonST.obj"
+".\Release\gh0st.res"
+]
+Creating command line "link.exe @E:\TEMP\RSP3CFB.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4049: locally defined symbol "__mbsnbcpy" imported
+LINK : warning LNK4049: locally defined symbol "_memmove" imported
+LINK : warning LNK4049: locally defined symbol "_ceil" imported
+LINK : warning LNK4049: locally defined symbol "_strstr" imported
+LINK : warning LNK4049: locally defined symbol "__mbscmp" imported
+LINK : warning LNK4049: locally defined symbol "_vsprintf" imported
+LINK : warning LNK4049: locally defined symbol "_free" imported
+LINK : warning LNK4049: locally defined symbol "_malloc" imported
+LINK : warning LNK4049: locally defined symbol "_atol" imported
+LINK : warning LNK4049: locally defined symbol "_wcslen" imported
+LINK : warning LNK4049: locally defined symbol "_wcscpy" imported
+LINK : warning LNK4049: locally defined symbol "__beginthreadex" imported
+LINK : warning LNK4049: locally defined symbol "_atoi" imported
+
+
+
+<h3>Results</h3>
+gh0st.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
